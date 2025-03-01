@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "7dc1",
+      "cityName": "Leh",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-08-23T13:27:30.482Z",
+      "notes": "",
+      "position": {
+        "lat": "33.19273094190692",
+        "lng": "79.09861065738991"
+      }
+    },
+    {
+      "id": "acc7",
+      "cityName": "Musa Khel Bazar",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2024-08-23T13:27:38.872Z",
+      "notes": "",
+      "position": {
+        "lat": "31.297327991404266",
+        "lng": "69.80217751840924"
+      }
+    },
+    {
+      "id": "0104",
+      "cityName": "Haro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-02-20T15:34:53.876Z",
+      "notes": "",
+      "position": {
+        "lat": "42.58544425738491",
+        "lng": "-2.9027057409165344"
+      }
+    }
+  ]
+}

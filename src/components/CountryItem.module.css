@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.countryItem {
+  background-color: black;
+  border-left: 5px solid red;
+  padding: 13px 30px;
+  margin: 9px;
+  list-style: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  width: 15rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+.countryItem span {
+  display: block;
+  margin: 0px 10px;
+}
+.emoji {
+  font-size: 20px;
+}

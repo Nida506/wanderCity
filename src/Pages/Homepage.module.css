@@ -1,0 +1,205 @@
+.homepage {
+  background-image: url("/bg.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+
+  /* border: 10px solid white; */
+}
+.homepage::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 139, 0.3);
+  z-index: 1;
+}
+
+.homepage section {
+  position: relative;
+  z-index: 1;
+  height: 80vh;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  padding-top: 100rem;
+  margin-top: 25px;
+}
+.homepage section div {
+  width: 70%;
+  text-align: center;
+}
+.homepage section div h1 {
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 12px;
+  text-shadow: 3px 3px 10px black;
+}
+.homepage section div h4 {
+  color: white;
+  text-shadow: 3px 3px 10px black;
+}
+.button {
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 13px 23px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0px 0px 1px black;
+}
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .homepage {
+    background-image: none;
+
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .homepage::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+  }
+
+  .homepage section {
+    position: relative;
+    z-index: 0;
+    height: 80vh;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    padding-top: 150px;
+  }
+  .homepage section div {
+    padding: 0px 8px 0px 8px;
+  }
+
+  .homepage section div h1 {
+    font-size: 0.9rem;
+  }
+  .homepage section div h4 {
+    font-size: 0.7rem;
+  }
+  .homepage section div button {
+    margin-top: 25px;
+    font-size: 10px;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .homepage section {
+    padding-top: 150px;
+  }
+  .homepage section div {
+    padding: 0px 8px 0px 8px;
+  }
+
+  .homepage section div h1 {
+    font-size: 1.8rem;
+  }
+  .homepage section div h4 {
+    font-size: 1.1rem;
+  }
+  .homepage section div button {
+    margin-top: 25px;
+    font-size: 14px;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .homepage section {
+    padding-top: 110px;
+  }
+  .homepage section div h1 {
+    font-size: 1.8rem;
+  }
+  .homepage section div h4 {
+    font-size: 1.1rem;
+  }
+  .homepage section div button {
+    margin-top: 25px;
+    font-size: 16px;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .homepage section {
+    padding-top: 110px;
+  }
+  .homepage section div h1 {
+    font-size: 1.9rem;
+  }
+  .homepage section div h4 {
+    font-size: 1.3rem;
+  }
+  .homepage section div button {
+    margin-top: 25px;
+    font-size: 16px;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .homepage section {
+    padding-top: 110px;
+  }
+  .homepage section div h1 {
+    font-size: 1.9rem;
+  }
+  .homepage section div h4 {
+    font-size: 1.3rem;
+  }
+  .homepage section div button {
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+  }
+}

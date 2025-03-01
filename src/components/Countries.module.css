@@ -1,0 +1,13 @@
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 44rem;
+  max-height: 22rem;
+}
+.countries ul {
+  width: 35rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

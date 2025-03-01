@@ -1,0 +1,25 @@
+.city {
+  background-color: black;
+  width: 30em;
+
+  border-radius: 10px;
+  padding-left: 40px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.icon {
+  font-size: 25px;
+}
+.city h6 {
+  text-transform: uppercase;
+  color: grey;
+}
+.city a:link,
+.city a:visited {
+  color: orange;
+}
+.btn {
+  margin-top: 20px;
+}

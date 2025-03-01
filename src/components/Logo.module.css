@@ -1,0 +1,36 @@
+.logo img {
+  width: 20rem;
+  height: 5rem;
+}
+.small {
+  display: none;
+}
+.large {
+  display: block;
+  margin-left: 1.5rem;
+  margin-top: 1.9rem;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .large {
+    display: none;
+  }
+
+  .small {
+    display: block;
+    padding-left: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .large {
+    display: none;
+  }
+
+  .small {
+    display: block;
+    padding-left: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}

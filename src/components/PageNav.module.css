@@ -1,0 +1,150 @@
+.nav {
+  height: 4rem;
+  width: 100vw;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+
+.nav ul {
+  display: flex;
+  padding-top: 35px;
+  padding-right: 50px;
+}
+.nav ul li {
+  color: white;
+  font-weight: bolder;
+  list-style: none;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* CSS Modules feature  */
+
+:global(.navbar-nav .nav-link.active) {
+  color: red;
+}
+a.ctaLink:link,
+a.ctaLink:visited {
+  color: red;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .nav {
+    background-color: rgba(248, 248, 255, 0.899);
+    border: 2px solid forestgreen;
+    height: 4rem;
+    width: 98.5vw;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .icon {
+    font-size: 15px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+  }
+  .dropdown {
+    background-color: rgba(248, 248, 255, 0.899);
+    border-top: 2px solid forestgreen;
+  }
+  .nav ul {
+    display: flex;
+    padding: 10px 50px 15px 0px;
+  }
+  .nav ul li {
+    font-size: 5px;
+    font-weight: normal;
+    color: black;
+  }
+  .nav a:link,
+  .nav a:visited {
+    background-color: rgba(230, 230, 247, 0.899);
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  a.ctaLink:link,
+  a.ctaLink:visited {
+    background-color: rgba(230, 230, 247, 0.899);
+    color: black;
+    padding: 0.5rem 0rem;
+  }
+  :global(.navbar-nav .nav-link.active) {
+    color: orange;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav {
+    background-color: rgba(248, 248, 255, 0.899);
+    border: 2px solid forestgreen;
+    height: 4rem;
+    width: 98.5vw;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .icon {
+    font-size: 15px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+  }
+  .dropdown {
+    background-color: rgba(248, 248, 255, 0.899);
+    border-top: 2px solid forestgreen;
+  }
+  .nav ul {
+    display: flex;
+    padding: 10px 50px 15px 0px;
+  }
+  .nav ul li {
+    font-size: 5px;
+    font-weight: normal;
+    color: black;
+  }
+  .nav a:link,
+  .nav a:visited {
+    background-color: rgba(230, 230, 247, 0.899);
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  a.ctaLink:link,
+  a.ctaLink:visited {
+    background-color: rgba(230, 230, 247, 0.899);
+    color: black;
+    padding: 0.5rem 0rem;
+  }
+  :global(.navbar-nav .nav-link.active) {
+    color: orange;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav ul {
+    display: flex;
+    padding: 50px 20px 15px 0px;
+  }
+}
